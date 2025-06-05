@@ -9,11 +9,11 @@
 #define OLED_RESET -1
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-const char* ssid = "hiii";
-const char* password = "123456789";
-const char* apiKey = "6fe8e0c10a2b5260f05bcace79a9a428";
-const char* latitude = "13.08908593488645";
-const char* longitude = "80.24477306367015";
+const char* ssid = "";
+const char* password = "";
+const char* apiKey = "YOUR API KEY";
+const char* latitude = "";
+const char* longitude = "";
 
 void setup() {
   Serial.begin(115200);
