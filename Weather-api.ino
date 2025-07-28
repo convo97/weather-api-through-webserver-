@@ -2,15 +2,15 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "MUTHU 8054";       // STA Mode SSID
-const char* password = "Muthu@123";  // STA Mode Password
+const char* ssid = "            ";       // STA Mode SSID
+const char* password = "         ";  // STA Mode Password
 
 const char* ap_ssid = "ESP32-Weather";    // AP Mode SSID
 const char* ap_password = "12345678";     // AP Mode Password
 
-const char* apiKey = "6fe8e0c10a2b5260f05bcace79a9a428";  // OpenWeatherMap API Key
-const char* latitude = "13.08908593488645";    // Latitude (e.g., "28.6139")
-const char* longitude = "80.24477306367015";   // Longitude (e.g., "77.2090")
+const char* apiKey = "               ";  // OpenWeatherMap API Key
+const char* latitude = "            ";    // Latitude (e.g., "28.6139")
+const char* longitude = "               ";   // Longitude (e.g., "77.2090")
 
 WiFiServer server(80);
 String weatherData = "Fetching data...";
